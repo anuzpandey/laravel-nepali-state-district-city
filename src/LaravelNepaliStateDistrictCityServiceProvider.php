@@ -1,10 +1,11 @@
 <?php
 
+declare(strict_types=1);
+
 namespace AnuzPandey\LaravelNepaliStateDistrictCity;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use AnuzPandey\LaravelNepaliStateDistrictCity\Commands\LaravelNepaliStateDistrictCityCommand;
 
 class LaravelNepaliStateDistrictCityServiceProvider extends PackageServiceProvider
 {
