@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace AnuzPandey\LaravelNepaliStateDistrictCity\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelNepaliStateDistrictCityCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-nepali-state-district-city';
 
     public $description = 'My command';
 
