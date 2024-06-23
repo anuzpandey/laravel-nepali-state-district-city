@@ -13,13 +13,13 @@ class NepaliStateDistrictCitySeeder extends Seeder
     public function run(): void
     {
         Schema::disableForeignKeyConstraints();
-        DB::table('provinces')->truncate();
+        DB::table('states')->truncate();
         DB::table('districts')->truncate();
         DB::table('cities')->truncate();
         Schema::enableForeignKeyConstraints();
 
         $this->call([
-            ProvinceSeeder::class,
+            StateSeeder::class,
             DistrictSeeder::class,
             CitySeeder::class,
         ]);

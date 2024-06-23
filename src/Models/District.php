@@ -23,6 +23,6 @@ class District extends Model
 
     public function province(): BelongsTo
     {
-        return $this->belongsTo(Province::class);
+        return $this->belongsTo(State::class);
     }
 }
