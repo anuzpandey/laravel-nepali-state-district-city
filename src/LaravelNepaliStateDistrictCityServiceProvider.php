@@ -14,6 +14,10 @@ class LaravelNepaliStateDistrictCityServiceProvider extends PackageServiceProvid
         $package
             ->name('laravel-nepali-state-district-city')
             ->hasConfigFile()
-            ->hasMigration('create_laravel-nepali-state-district-city_table');
+            ->hasMigrations([
+                '0002_02_02_000001_create_states_table',
+                '0002_02_02_000002_create_districts_table',
+                '0002_02_02_000003_create_cities_table',
+            ]);
     }
 }
